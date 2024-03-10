@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Château de Poucques",
+    "period": "xviiie siècle",
+    "country": "Belgique",
+    "locality": "Aalter",
+    "picture": "/img/Chateau_de_poucques.jpg",
+    "author": "Marc Ryckaert (MJJR)",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=14883275",
+    "website": "https://www.poeke.net/",
+    "coordinates": {
+      "lattitude": "51.040000",
+      "longitude": "3.450000"
+    }
+  },
+  {
+    "name": "Château de Bellver",
+    "period": "xive siècle",
+    "country": "Espagne",
+    "locality": "Palma de Majorque",
+    "picture": "/img/Chateau_de_Bellver.jpg",
+    "author": "Taxiarchos228",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=34369171",
+    "website": "https://castelldebellver.palma.es/",
+    "coordinates": {
+      "lattitude": "39.563889",
+      "longitude": "2.619444"
+    }
+  },
+  {
+    "name": "Château de Bodiam",
+    "period": "1385",
+    "country": "Royaume-Uni",
+    "locality": "Robertsbridge",
+    "picture": "/img/Chateau_de_Bodiam.jpg",
+    "author": "WyrdLight.com",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=7910287",
+    "website": "www.nationaltrust.org.uk/bodiam-castle",
+    "coordinates": {
+      "lattitude": "51.002500",
+      "longitude": "0.543611"
+    }
+  },
+  {
+    "name": "Château de Matsumoto",
+    "period": "xvie siècle",
+    "country": "Japon",
+    "locality": "Matsumoto",
+    "picture": "/img/Chateau_de_Matsumoto.jpg",
+    "author": "663highland",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=26679521",
+    "website": "www.matsumoto-castle.jp",
+    "coordinates": {
+      "lattitude": "36.238889",
+      "longitude": "137.969167"
+    }
+  },
+  {
+    "name": "Château d'Édimbourg",
+    "period": "xiie siècle",
+    "country": "Royaume-Uni",
+    "locality": "Édimbourg",
+    "picture": "/img/Chateau_d_Edinburgh.jpg",
+    "author": "Andrew Shiva",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=51291606",
+    "website": "https://www.edinburghcastle.scot/",
+    "coordinates": {
+      "lattitude": "55.948611",
+      "longitude": "-3.200833"
+    }
+  },
+  {
+    "name": "Château de Windsor",
+    "period": "xie siècle",
+    "country": "Royaume-Uni",
+    "locality": "Windsor",
+    "picture": "/img/Chateau_de_Windsor.jpg",
+    "author": "Diliff",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=1355522",
+    "website": "https://www.rct.uk/visit/windsor-castle",
+    "coordinates": {
+      "lattitude": "51.483889",
+      "longitude": "-0.604722"
+    }
+  },
+  {
+    "name": "Château de Versailles",
+    "period": "1623",
+    "country": "France",
+    "locality": "Versailles",
+    "picture": "/img/Chateau_de_Versailles.jpg",
+    "author": "ToucanWings",
+    "authorLink": "https://commons.wikimedia.org/w/index.php?curid=28506008",
+    "website": "https://www.chateauversailles.fr/",
+    "coordinates": {
+      "lattitude": "48.805155",
+      "longitude": "2.120334"
+    }
+  }
+]
