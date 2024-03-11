@@ -6,11 +6,18 @@ import classNames from "classnames";
 
 interface CastelPreviewProps {
   castel: Castel;
+  onclick: (castelSelected: Castel) => void;
 }
 
-function CastelPreview({ castel }: CastelPreviewProps): React.JSX.Element {
+function CastelPreview({
+  castel,
+  onclick,
+}: CastelPreviewProps): React.JSX.Element {
   return (
-    <article className={classNames(styles.container)}>
+    <article
+      className={classNames(styles.container)}
+      onClick={() => onclick(castel)}
+    >
       <figure className={classNames(styles.figure)}>
         <Image
           src={`${castel.picture}`}

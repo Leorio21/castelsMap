@@ -7,8 +7,5 @@ export interface Castel {
   author: string;
   authorLink: string;
   website: string;
-  coordinates: {
-    lattitude: string;
-    longitude: string;
-  };
+  coordinates: number[];
 }
