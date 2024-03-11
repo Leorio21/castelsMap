@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "leaflet";
 import classNames from "classnames";
-import styles from "./map.module.css";
+import styles from "./Map.module.css";
 import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import type { Castel } from "@/app/Type/Castel";
 import Image from "next/image";
