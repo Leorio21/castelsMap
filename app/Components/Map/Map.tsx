@@ -4,6 +4,7 @@ import classNames from "classnames";
 import styles from "./map.module.css";
 import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import type { Castel } from "@/app/Type/Castel";
+import Image from "next/image";
 
 interface MapProps {
   castels: Castel[];
@@ -33,7 +34,22 @@ function Map({ castels, location }: MapProps): React.JSX.Element {
           position={castel.coordinates as [number, number]}
           icon={myIcon}
         >
-          <Popup>{castel.name}</Popup>
+          <Popup>
+            <div className={classNames(styles.popup)}>
+              <Image
+                src={`/img/map_${castel.picture}`}
+                width={120}
+                height={72}
+                alt={`Photo du chateau de ${castel.name}`}
+              />
+              <p className={classNames(styles.popupInfos)}>
+                <span>{castel.name}</span>
+                <span>
+                  {castel.locality} - {castel.country}
+                </span>
+              </p>
+            </div>
+          </Popup>
         </Marker>
       ))}
     </MapContainer>

@@ -6,13 +6,11 @@ import castelsJson from "../public/castels.json";
 import countrys from "../public/countrys.json";
 import CastelPreview from "./Components/Castel/CastelPreview/CastelPreview";
 import type { Castel } from "./Type/Castel";
-import CastelInfo from "./Components/Castel/CastelInfo/CastelInfo";
 import dynamic from "next/dynamic";
 import "leaflet/dist/leaflet.css";
 
 export default function Home(): React.JSX.Element {
   const [castels, setCastels] = useState<Castel[]>(castelsJson);
-  const [castel, setCastel] = useState<Castel | null>(null);
   const selectRef = useRef<HTMLSelectElement>(null);
 
   // eslint-disable-next-line @typescript-eslint/promise-function-async
@@ -20,12 +18,7 @@ export default function Home(): React.JSX.Element {
     ssr: false,
   });
 
-  const selectCastel = (castelSelected: Castel): void => {
-    setCastel(castelSelected);
-  };
-
   const selectChangeHandler = (): void => {
-    setCastel(null);
     setCastels(() => {
       if (selectRef === null || selectRef.current?.value === "all") {
         return castelsJson;
@@ -38,6 +31,9 @@ export default function Home(): React.JSX.Element {
 
   return (
     <main>
+      <section className={classNames(styles.map)}>
+        <TestMap castels={castels} location={[0, 0]} />
+      </section>
       <section>
         <label className={classNames(styles.filter)}>
           Pays :
@@ -52,20 +48,9 @@ export default function Home(): React.JSX.Element {
         </label>
         <div className={classNames(styles.castelsContainer)}>
           {castels.map((castel) => (
-            <CastelPreview
-              key={castel.name}
-              castel={castel}
-              onclick={selectCastel}
-            />
+            <CastelPreview key={castel.name} castel={castel} />
           ))}
         </div>
-      </section>
-      <section>
-        {castel !== null ? (
-          <CastelInfo castel={castel} />
-        ) : (
-          <TestMap castels={castels} location={[0, 0]} />
-        )}
       </section>
     </main>
   );
