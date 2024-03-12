@@ -75,5 +75,203 @@
     "authorLink": "https://commons.wikimedia.org/w/index.php?curid=28506008",
     "website": "https://www.chateauversailles.fr/",
     "coordinates": [48.805155, 2.120334]
-  }
+  },
+  {
+		"name": "Château de Moritzburg",
+		"period": "1542",
+		"country": "Allemagne",
+		"locality": "Moritzburg",
+		"picture": "Chateau_de_Moritzburg.webp",
+		"author": "Maxi Modes",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=176578",
+		"website": "https://www.schloss-moritzburg.de/de/startseite/",
+		"coordinates": [51.169444, 13.679722]
+	},
+	{
+		"name": "Château de Pierrefonds",
+		"period": "1396",
+		"country": "France",
+		"locality": "Pierrefonds",
+		"picture": "Chateau_de_Pierrefonds.webp",
+		"author": "Nicolas Fatous",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=16655984",
+		"website": "https://www.chateau-pierrefonds.fr/",
+		"coordinates": [49.346944, 2.980278]
+	},
+	{
+		"name": "Château de Bran",
+		"period": "xiiie siècle",
+		"country": "Roumanie",
+		"locality": "Bran",
+		"picture": "Chateau_de_Bran.webp",
+		"author": "Dobre Cezar",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=21209779",
+		"website": "https://bran-castle.com/",
+		"coordinates": [45.515, 25.367222]
+	},
+	{
+		"name": "Château de Peyrepertuse",
+		"period": "xe siècle",
+		"country": "France",
+		"locality": "Duilhac-sous-Peyrepertuse",
+		"picture": "Chateau_de_Peyrepertuse.webp",
+		"author": "H. Zell",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=83589610",
+		"website": "https://www.peyrepertuse.com/",
+		"coordinates": [42.870833, 2.555278]
+	},
+	{
+		"name": "Citadelle de Bam",
+		"period": "ve siècle av. J.-C.",
+		"country": "Iran",
+		"locality": "Bam",
+		"picture": "Citadelle_de_Bam.webp",
+		"author": "Diego Delso",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=52014496",
+		"website": "",
+		"coordinates": [29.115176, 58.369336]
+	},
+	{
+		"name": "Château d'If",
+		"period": "1527",
+		"country": "France",
+		"locality": "Marseille",
+		"picture": "Chateau_d_If.webp",
+		"author": "Jean-Marc Rosier",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=1610961",
+		"website": "https://www.chateau-if.fr/",
+		"coordinates": [43.279722, 5.325278]
+	},
+	{
+		"name": "Château de Hluboká",
+		"period": "xiiie siècle",
+		"country": "République tchèque",
+		"locality": "Hluboká nad Vltavou",
+		"picture": "Chateau_de_Hluboka.webp",
+		"author": "Michal Klajban",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=52132451",
+		"website": "https://www.zamek-hluboka.cz/cs",
+		"coordinates": [49.051389, 14.441111]
+	},
+	{
+		"name": "Château de Neuschwanstein",
+		"period": "1869",
+		"country": "Allemagne",
+		"locality": "Hohenschwangau",
+		"picture": "Chateau_de_Neuschwanstein.webp",
+		"author": "Thomas Wolf",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=27899216",
+		"website": "https://www.neuschwanstein.de/",
+		"coordinates": [47.557778, 10.75]
+	},
+	{
+		"name": "Château aragonais",
+		"period": "xve siècle",
+		"country": "Italie",
+		"locality": "Ischia",
+		"picture": "Chateau_aragonais.webp",
+		"author": "Rolf Cosar",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=2092092",
+		"website": "",
+		"coordinates": [40.731667, 13.965]
+	},
+	{
+		"name": "Reichsburg Cochem",
+		"period": "1877",
+		"country": "Allemagne",
+		"locality": "Cochem",
+		"picture": "Reichsburg_Cochem.webp",
+		"author": "Holger Weinandt",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=353543",
+		"website": "http://www.burg-cochem.de/",
+		"coordinates": [50.142222, 7.166944]
+	},
+	{
+		"name": "Château de Chenonceau",
+		"period": "xvie siècle",
+		"country": "France",
+		"locality": "Chenonceau",
+		"picture": "Chateau_de_Chenonceau.webp",
+		"author": "It is a derivative work of Ra-smit",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=4924052",
+		"website": "https://www.chenonceau.com/",
+		"coordinates": [47.325, 1.070278]
+	},
+	{
+		"name": "Château de Roccascalegna",
+		"period": "xiie siècle",
+		"country": "Italie",
+		"locality": "Roccascalegna",
+		"picture": "Chateau_de_Roccascalegna.webp",
+		"author": "Roccascalegna (CH)",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=146011783",
+		"website": "https://www.castelloroccascalegna.com/",
+		"coordinates": [42.0625, 14.304722]
+	},
+	{
+		"name": "Château de Chambord",
+		"period": "1519",
+		"country": "France",
+		"locality": "Chambord",
+		"picture": "Chateau_de_Chambord.webp",
+		"author": "",
+		"authorLink": "",
+		"website": "https://www.chambord.org/fr/",
+		"coordinates": [47.616111, 1.517222]
+	},
+	{
+		"name": "Château de Vaux-le-Vicomte",
+		"period": "1656",
+		"country": "France",
+		"locality": "Maincy",
+		"picture": "Chateau_de_Vaux_le_Vicomte.webp",
+		"author": "Jean-Pol GRANDMONT",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=28466487",
+		"website": "https://vaux-le-vicomte.com/",
+		"coordinates": [48.565833, 2.714167]
+	},
+	{
+		"name": "Château de Heidelberg",
+		"period": "1294",
+		"country": "Allemagne",
+		"locality": "Heidelberg",
+		"picture": "Chateau_de_Heidelberg.webp",
+		"author": "Pumuckel42",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=7570284",
+		"website": "https://www.schloss-heidelberg.de/fr/",
+		"coordinates": [49.410556, 8.715833]
+	},
+	{
+		"name": "Château de Bojnice",
+		"period": "xiie siècle",
+		"country": "Slovaquie",
+		"locality": "Bojnice",
+		"picture": "Chateau_de_Bojnice.webp",
+		"author": "Studiowacho",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=121767507",
+		"website": "https://bojnicecastle.sk/",
+		"coordinates": [48.779722, 18.575]
+	},
+	{
+		"name": "Nid d'hirondelle",
+		"period": "1912",
+		"country": "Ukraine",
+		"locality": "Avrorina Rock",
+		"picture": "Nid_d_hirondelle.webp",
+		"author": "A.Savin",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=32273759",
+		"website": "",
+		"coordinates": [44.430556, 34.128611]
+	},
+	{
+		"name": "Fort de Mehrangarh",
+		"period": "xviie siècle",
+		"country": "Inde",
+		"locality": "Jodhpur",
+		"picture": "Fort_de_Mehrangarh.webp",
+		"author": "Knowledge Seeker",
+		"authorLink": "https://commons.wikimedia.org/w/index.php?curid=71394",
+		"website": "",
+		"coordinates": [26.3, 73.016667]
+	}
 ]
